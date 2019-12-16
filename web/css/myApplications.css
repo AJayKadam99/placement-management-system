@@ -1,0 +1,28 @@
+/* #428bca*/
+/* ===========================
+          student table
+=============================*/
+.content-section{
+    background: white;
+}
+.studentListHeading {
+  position: relative;
+  top: 2vh;
+}
+
+#student-table {
+  width: 80vw;
+  float: left;
+  position: relative;
+  /* left: 2vw; */
+  top: 5vh;
+  height: 73vh;
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.view-btn {
+  width: 5vw;
+  box-shadow: none;
+}

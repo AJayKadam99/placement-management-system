@@ -1,0 +1,66 @@
+.company-logo{
+	 /*border-radius: 50%;*/	
+	 float: left;
+	 height:200px; 
+	 width:200px;
+	 margin-top: 2vw;
+	 margin-left: 3vw;
+}
+.companyName{
+    float: right;
+    text-align: left;
+    /*border: 1px solid red;*/
+    width: 45vw;
+  
+}
+.container-profile{
+	margin-top: 50px;
+	width: 100%;
+        min-height: 40vh;
+	background: white;
+  	border-radius: 5px;
+  	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+}
+.container-cards{
+	margin: 10px 0px 0px 0px;
+	width: 100%;
+	background: white;
+  	border-radius: 5px;
+  	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+}
+.company-info{
+	float:left;
+	display: inline;
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+.col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+}
+.column {
+  float: left;
+  width: 100%;
+  padding: 0;
+}
+
+/* Remove extra left and right margins, due to padding */
+.card-row {margin: 10px;}
+
+/* Clear floats after the columns */
+.card-row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 2vh 3vw;;
+  /*text-align: center;*/
+  margin: 10px;
+  background-color: #f1f1f1;
+}

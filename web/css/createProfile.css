@@ -1,0 +1,133 @@
+.profile-head {
+  font-size: 3vw;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  /* text-decoration: underline; */
+}
+.profile-icon {
+  /* border: 1px solid red; */
+  height: 35vh;
+  width: 20vw;
+  font-size: 12vw;
+  padding: 0 1vw;
+  float: right;
+}
+.profile-info-block {
+  padding: 1vh 2vw 0 2vw;
+  margin-top: 2vh;
+  border-radius: 5px;
+  min-height: 35vh;
+  background: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.profile-info-block-small {
+  min-width: 39vw;
+  padding: 1vh 2vw 0 1vw;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  border-radius: 5px;
+  min-height: 35vh;
+  background: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.profile-info-block-long {
+  padding: 1vh 2vw 0 2vw;
+  margin-top: 2vh;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.profile-info-head {
+  font-size: 2vw;
+  padding-left: 3vw;
+  height: 8vh;
+}
+.info-block {
+  height: 9vh;
+  border-bottom: 1px solid rgba(158, 158, 158, 0.644);
+  width: 55vw;
+  font-size: 1.7vw;
+  padding: 1vh 0;
+}
+.info-block-small {
+  min-height: 9vh;
+  border-bottom: 1px solid rgba(158, 158, 158, 0.644);
+  width: 35vw;
+  font-size: 1.7vw;
+  padding: 1vh 0;
+}
+.info-block-long {
+  height: 9vh;
+  border-bottom: 1px solid rgba(158, 158, 158, 0.644);
+  font-size: 1.7vw;
+  padding: 1vh 0;
+}
+.info-block-long {
+  height: 9vh;
+  border-bottom: 1px solid rgba(158, 158, 158, 0.644);
+  font-size: 1.7vw;
+  padding: 1vh 0;
+}
+.info-label {
+  margin-left: 3vw;
+  font-size: 1.5vw;
+  font-weight: 400;
+  width: 30%;
+}
+.info-label-long {
+  margin-left: 3vw;
+  font-size: 1.5vw;
+  font-weight: 400;
+  width: 20%;
+}
+
+.info-value,
+.info-input {
+  /* border: 1px solid red; */
+  width: 55%;
+  text-align: center;
+}
+.info-value-long,
+.info-input-long {
+  /* border: 1px solid red; */
+  width: 65%;
+  text-align: left;
+}
+input {
+  border: none;
+  border-bottom: 1px solid rgb(110, 110, 110);
+}
+.info-input-block {
+  height: 6vh;
+  width: 100%;
+  font-size: 1.6vw;
+  margin-top: -1vh;
+
+  /* margin-left: 0vw; */
+  text-align: center;
+  /* border-bottom: 1px grey; */
+  /* border: none; */
+  outline: none;
+}
+.info-value {
+  font-weight: 400;
+  padding: 0vh 0.5vw;
+}
+.info-edit-icon {
+  width: 5%;
+  font-size: 2vw;
+  text-align: right;
+  /* border: 1px solid red; */
+}
+.document-label {
+  margin-left: 3vw;
+  width: 20%;
+}
+.document-name {
+  width: 30%;
+  text-align: left;
+}
+.option-buttons {
+  width: 15%;
+}

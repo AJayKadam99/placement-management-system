@@ -1,0 +1,20 @@
+.container-chart{
+	margin-top: 1vw;
+	width: 100%;
+	padding: 0;
+	background: white;
+  	border-radius: 5px;
+  	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+  	/*border: 2px solid red;*/
+}
+.chart-section{
+	width:50%;
+	/*border: 2px solid black;*/
+	padding-bottom: 1vw;
+}
+.chart-section1{
+	width:100%;
+	margin-left: 0.9vw;
+	/*border: 2px solid black;*/
+	padding-bottom: 1vw;
+}

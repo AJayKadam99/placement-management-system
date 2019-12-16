@@ -1,0 +1,35 @@
+.content-section {
+  /* box-shadow: none; */
+  background: white;
+  overflow: scroll
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.companyLogo{
+    width: 30vw;
+  height: 30vh;
+}
+.company-img {
+  width: 40vw;
+  height: 40vh;
+  /*border: 1px solid red;*/ 
+  padding: 5vh 2vw;
+}
+.company-name {
+  font-size: 5vw;
+  width: 35vw;
+  /* border: 1px solid red; */
+  padding: 5vh 0;
+}
+.about-company-head {
+  font-size: 1.5vw;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.apply-btn {
+    margin-top: 2vh;
+  font-size: 2vw;
+  width: 10vw;
+  padding-bottom:2vh;
+}

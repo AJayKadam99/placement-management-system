@@ -1,0 +1,19 @@
+#formtitle {
+  position: relative;
+  top: 2vh;
+}
+.container-feedback{
+	margin-top: 2vw;
+	width: 100%;
+	padding: 0;
+	background: white;
+  	border-radius: 5px;
+  	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+}
+.container-fluid {
+    padding: 20px 30px;
+}
+input[type=number]{
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+}

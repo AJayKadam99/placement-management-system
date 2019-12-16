@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+
+    <link href="css/login.css" rel="stylesheet" />
+
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+    <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <section id="mainBody">
+        <div class="main row col-lg-6 col-sm-10">
+          <section id="signup">
+            <div class="logo text-center">
+              <i id="user-logo" class="fa fa-user-circle"></i>
+            </div>
+            <div class="head-text text-center">
+              <h3>Sign In</h3>
+              Continue to Placements
+            </div>
+            <div class="login-form">
+              <form action="login.jsp" method="get">
+                <div class="form-group text-center">
+                  <select id="department" class="form-control text-center" name="type">
+                    <option>Select Account Type</option>
+                    <option value="student">Student</option>
+                    <option value="organization">Organization</option>
+                    <option value="tnp">TnP Cell</option>
+                  </select>
+                </div>
+
+                <div class="form-group text-center ">
+                  <div class="email">
+                    <input
+                      type="text"
+                      placeholder="Enter Username" name="regId"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group text-center">
+                  <input type="password" placeholder="Password" name="pass" required />
+                  <div class="help">
+                    <small class="help-text text-muted"
+                      ><a href="#">Forgot Password?</a></small>
+                  </div>
+                </div>
+
+                <div class="form-group text-center">
+                  <div class="submit">
+                    <button type="submit" class="btn btn-primary create1 ">
+                      Login
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>placement_management</servlet-name>
+        <servlet-class>placement_management</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FileUploadPdf</servlet-name>
+        <servlet-class>File.FileUploadPdf</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FileDownloadFromDb</servlet-name>
+        <servlet-class>File.FileDownloadFromDb</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>placement_management</servlet-name>
+        <url-pattern>/placement_management</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FileUploadPdf</servlet-name>
+        <url-pattern>/FileUploadPdf</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FileDownloadFromDb</servlet-name>
+        <url-pattern>/FileDownloadFromDb</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

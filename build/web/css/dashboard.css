@@ -1,0 +1,260 @@
+/* ===================================
+            dashboard
+=====================================*/
+.content-section {
+  overflow: scroll;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.welcome {
+  /* border: 1px solid red; */
+  margin-top: 1vh;
+  padding: 2vh 0;
+  position: relative;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+  font-size: 2vw;
+  font-weight: 500;
+}
+.welcome-head{
+    font-size: 2.3vw;
+    font-weight: 500;
+}
+
+.company-table {
+  position: relative;
+  top: 2vh;
+  padding: 2vh 1vw;
+  border-radius: 5px;
+  height: 55vh;
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+#upcoming {
+  position: relative;
+  top: 4vh;
+}
+thead {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+
+}
+th {
+  font-size: 3vw;
+  font-weight: 400;
+}
+tr {
+  border-bottom: 0px solid red;
+  outline: none;
+}
+.company-block {
+  border-radius: 5px;
+  margin: 1vh 0 0 0;
+  /* padding: 0 1vw; */
+  background: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+}
+.upper-block {
+  /* border: 1px solid red; */
+  padding: 2vh 3vw;
+}
+.company-img {
+  float: left;
+  width: 30vw;
+}
+.company-logo {
+  width: 15vw;
+  /* border: 1px solid red; */
+}
+.company-name {
+  height: 8vh;
+  width: 30vw;
+  /* border: 1px solid red; */
+  font-size: 3vw;
+  color: rgb(0, 132, 255);
+}
+.lower-block {
+  padding: 2vh 2vw;
+}
+.info-block {
+  width: 14vw;
+}
+.info-block-head {
+  font-size: 2vw;
+  font-weight: 500;
+}
+.info-block-content{
+    font-size: 1.4vw;
+}
+.view-btn {
+  width: 8vw;
+  font-size: 1.5vw;
+}
+@media only screen and (max-width: 480px) {
+  /* ===================================
+              dashboard
+  =====================================*/
+
+  .welcome {
+    height: 10vh;
+    width: 50vw;
+  }
+  .welcome,
+  .user-details {
+    margin-top: 1vh;
+    left: 5vw;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  .user-details {
+    position: relative;
+    height: 20vh;
+    width: 75vw;
+    padding: 0vh 1vw;
+    z-index: 0;
+
+    /* border: 1px solid red; */
+  }
+  .value-item,
+  .value {
+    font-size: 5vw;
+    /* border: 1px solid red; */
+  }
+  /* .value-item { */
+  /* margin-left: 2vw; */
+  /* } */
+
+  .value-name {
+    width: 30vw;
+    float: left;
+  }
+  .value {
+    width: 15vw;
+    height: 6vh;
+    float: left;
+  }
+}
+
+/* =========================================
+                  Stats
+  ============================================ */
+
+#stats {
+  padding: 5vh 0;
+  height: 40vh;
+  width: 80vw;
+  z-index: -1;
+  margin-top: 0vh;
+  /* border: 1px solid red; */
+}
+
+#stats .content-box-md {
+  background: rgba(255, 255, 255, 0);
+}
+
+#stats .vertical-heading {
+  margin: 50px 0;
+}
+
+#stats .vertical-heading h2 {
+  color: rgb(255, 255, 255);
+}
+
+.stats-item {
+  background: white;
+  border-radius: 5px;
+  min-height: 200px;
+  padding: 25px 50px;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+}
+
+.stats-item i {
+  font-size: 42px;
+  color: rgb(0, 132, 255);
+  margin: 0 0 6px 0;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
+}
+
+.stats-item h3 {
+  font-size: 32px;
+  color: rgb(0, 132, 255);
+  margin: 5px 0 5px 0;
+}
+
+.stats-item p {
+  color: rgb(0, 132, 255);
+  margin: 0;
+  font-size: 1.2vw;
+}
+
+.profiles:hover {
+  background: linear-gradient(90deg, rgb(28, 112, 2), rgb(0, 255, 13));
+}
+.attendance:hover {
+  background: linear-gradient(90deg, rgb(112, 2, 2), rgb(255, 38, 0));
+}
+.achievements:hover {
+  background: linear-gradient(90deg, rgb(2, 31, 112), rgb(0, 132, 255));
+}
+.meets:hover {
+  background: linear-gradient(90deg, rgb(2, 112, 112), rgb(0, 255, 213));
+}
+.stats-item:hover p {
+  color: #ffffff;
+}
+.stats-item:hover h3 {
+  color: #ffffff;
+}
+.stats-item:hover i {
+  color: #ffffff;
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+@media only screen and (max-width: 480px) {
+  #stats {
+    height: 65vh;
+    z-index: -1;
+    padding: 0;
+    width: 100%;
+  }
+  .stats-item {
+    position: relative;
+    height: 20vh;
+    width: 43vw;
+    float: left;
+    margin-top: 3vh;
+  }
+  .meets {
+    position: absolute;
+    left: 3vw;
+    top: 4vw;
+  }
+  .achievements {
+    position: absolute;
+    left: 50vw;
+    top: 4vw;
+  }
+  .profiles {
+    position: absolute;
+    left: 3vw;
+    top: 70vw;
+  }
+  .attendance {
+    position: absolute;
+    left: 50vw;
+    top: 70vw;
+  }
+  .stats-item p {
+    font-size: 4vw;
+  }
+}
